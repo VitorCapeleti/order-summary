@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: hsl(225, 100%, 94%);
+}
+#container{
+    max-width: 375px;
+    background-color: #ffffff;
+    margin: 100px auto;
+    border-radius: 20px;
+    align-items: center;
+    display: flexbox;
+}
+.boxImage img{
+    width: 375px;
+    border-radius: 20px 20px 0px 0px;
+}
+.boxInformation{
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    font-family: 'Red Hat Display';
+    font-size: 15px;
+    color: dimgrey;
+}
+.boxInformation h1{
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: hsl(223, 47%, 23%);
+}
+.boxInformation p{
+    font-weight: 400;
+}
+.boxValue{
+    margin: 20px;
+    margin-top: -5px;
+    border-radius: 10px;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(225, 100%, 98%);
+    background-size: 300px;
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+    font-weight: bold;
+}
+.boxValue h3{
+    color: hsl(223, 47%, 23%);
+    font-size: 15px;
+}
+.boxValue a{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    color: hsl(245, 75%, 52%);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+.boxValue a:hover{
+    color: hsl(245, 66%, 59%);
+}
+.boxValue p{
+    font-size: 14px;
+    color: dimgray;
+}
+.value{
+    margin-top: 5px;
+    margin-left: -50px;
+}
+.boxSubmit{
+    text-align: center;
+    font-family: 'Red Hat Display';
+    font-size: 14px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    color: dimgray;
+}
+.boxSubmit button{
+    border: none;
+    width: 330px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color:hsl(245, 75%, 52%);
+    font-family: 'Red Hat Display';
+    font-size: 14px;
+    font-weight: bold;
+    color: hsl(225, 100%, 98%);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+.boxSubmit button:hover{
+    background-color: hsl(245, 66%, 59%);
+}
+.boxSubmit p{
+    padding-top: 25px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+.boxSubmit p:hover{
+    color: hsl(223, 47%, 23%);
+}
